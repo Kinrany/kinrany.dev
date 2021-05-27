@@ -4,4 +4,4 @@ I went to Moscow State University, Faculty of Mechanics and Mathematics, but dro
 
 I have a Bachelor's degree in Applied Computer Science from Moscow Aviation Institute.
 
-I've been participating in competitive programming contests since the 8th grade.
+I also did some competitive programming.

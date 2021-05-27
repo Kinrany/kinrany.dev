@@ -2,10 +2,9 @@
 
 **September 2020 - October 2020** - Zebrainy, backend developer. TypeScript, C#, IdentityServer4, MongoDB, Firebase, ffmpeg.
 
-Wrote and deployed five small-but-not-quite-micro services. HTTP and docker-compose, no message queue.
-Each had a single purpose: for example, one would distribute users into A/B testing groups according to a configuration in Firebase.
+Wrote and deployed five small-but-not-quite-micro services. (HTTP and docker-compose, no message queue.)
 
-Wrote a couple of scripts for validating IdentityServer4 auth tokens and for converting videos into a streamable format.
+Wrote a couple of scripts for IdentityServer4 auth token validation and for converting videos into a streamable format.
 
 **March 2020 - September 2020** - Strelka Institute, backend developer. TypeScript, PostgreSQL.
 
