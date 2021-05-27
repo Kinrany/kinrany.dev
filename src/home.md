@@ -8,4 +8,4 @@ My name is Ruslan Fadeev. My usual username is kinrany:
 * Matrix: [@kinrany:matrix.org](https://matrix.to/#/@kinrany:matrix.org)
 * Email: [kinrany@yandex.com](mailto:kinrany@yandex.com)
 
-My CV: [link](./curriculum_vitae)
+My CV: [link](./curriculum_vitae.md)

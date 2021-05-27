@@ -1,7 +1,3 @@
-Ruslan Fadeev \
-Software developer \
-Email: kinrany@yandex.com
-
 ## Education
 
 I went to Moscow State University, Faculty of Mechanics and Mathematics, but dropped out.
@@ -31,7 +27,7 @@ Hooked into CI to update tasks in the task tracker based on changes in the Githu
 
 Replaced custom build tools with Webpack and a custom plugin.
 
-# Projects
+## Projects
 
 I made vue-p5, a Vue component.
 ~85 github stars, ~300 dependent projects on Github, ~400 downloads/week.
