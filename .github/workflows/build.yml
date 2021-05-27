@@ -12,5 +12,7 @@ jobs:
           --header "Accept: application/octet-stream" \
           -O mdbook_v0.4.8_linux \
           https://api.github.com/repos/rust-lang/mdBook/releases/assets/36745077
+      - name: Change permissions
+        run: chmod +x mdbook_v0.4.8_linux
       - name: Build book
         run: ./mdbook_v0.4.8_linux build
