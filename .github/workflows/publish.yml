@@ -15,8 +15,7 @@ jobs:
           https://api.github.com/repos/rust-lang/mdBook/releases/assets/36745077
       - name: Extract mdbook binary
         run: tar -xf mdbook_v0.4.8_linux.tar.gz
-      - name: Change permissions
-        run: chmod +x mdbook
+      - run: chmod +x mdbook
       - name: Build book
         run: ./mdbook build
       - name: Create SSH identity file
@@ -25,5 +24,6 @@ jobs:
           cat > ~/.ssh/id_rsa <<- EOM
           ${{ secrets.DROPLET_SSH_PRIVATE_KEY }}
           EOM
+      - run: chmod 400 ~/.ssh/id_rsa
       - name: Publish book
         run: scp -r -o StrictHostKeyChecking=no book ${{ secrets.SCP_DESTINATION }}
