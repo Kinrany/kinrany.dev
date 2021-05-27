@@ -1,11 +1,5 @@
-# About
+Hi, I'm Ruslan. I work as a software engineer.
 
-My name is Ruslan Fadeev. My usual username is kinrany:
+This is my WIP website that doubles as my Curriculum Vitae.
 
-* [Github](https://github.com/Kinrany/)
-* [Twitter](https://twitter.com/kinrany)
-* [Telegram](https://t.me/kinrany)
-* Matrix: [@kinrany:matrix.org](https://matrix.to/#/@kinrany:matrix.org)
-* Email: [kinrany@yandex.com](mailto:kinrany@yandex.com)
-
-My CV: [link](./curriculum_vitae.md)
+You can print or view the whole site as one page: [link](./print.html).

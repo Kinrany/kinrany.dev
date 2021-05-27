@@ -1,4 +1,8 @@
 # Summary
 
 - [Home](./home.md)
-- [Curriculum Vitae](./curriculum_vitae.md)
+- [Contact info](./contact.md)
+- [Education](./education.md)
+- [Experience](./experience.md)
+- [Skills](./skills.md)
+- [Preferences](./preferences.md)
