@@ -6,13 +6,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Download mdbook binary
+      - name: Download mdbook archive
         run: |
           wget -c \
           --header "Accept: application/octet-stream" \
-          -O mdbook_v0.4.8_linux \
+          -O mdbook_v0.4.8_linux.tar.gz \
           https://api.github.com/repos/rust-lang/mdBook/releases/assets/36745077
+      - name: Extract mdbook binary
+        run: tar -xf mdbook_v0.4.8_linux.tar.gz
       - name: Change permissions
-        run: chmod +x mdbook_v0.4.8_linux
+        run: chmod +x mdbook
       - name: Build book
-        run: ./mdbook_v0.4.8_linux build
+        run: ./mdbook build
