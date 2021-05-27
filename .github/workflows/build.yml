@@ -1,0 +1,16 @@
+on: [push]
+
+name: CI
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download mdbook binary
+        run: |
+          wget -c \
+          --header "Accept: application/octet-stream" \
+          -O mdbook_v0.4.8_linux \
+          https://api.github.com/repos/rust-lang/mdBook/releases/assets/36745077
+      - name: Build book
+        run: ./mdbook_v0.4.8_linux build
