@@ -19,3 +19,7 @@ jobs:
         run: chmod +x mdbook
       - name: Build book
         run: ./mdbook build
+      - name: Create SSH identity file
+        run: echo '${{ secrets.DROPLET_SSH_PRIVATE_KEY }}' > id_rsa
+      - name: Publish book
+        run: scp -r -i id_rsa book ${{ secrets.SCP_DESTINATION }}
