@@ -26,4 +26,4 @@ jobs:
           ${{ secrets.DROPLET_SSH_PRIVATE_KEY }}
           EOM
       - name: Publish book
-        run: scp -r book ${{ secrets.SCP_DESTINATION }}
+        run: scp -r -o StrictHostKeyChecking=no book ${{ secrets.SCP_DESTINATION }}
