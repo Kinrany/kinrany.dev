@@ -20,6 +20,10 @@ jobs:
       - name: Build book
         run: ./mdbook build
       - name: Create SSH identity file
-        run: echo '${{ secrets.DROPLET_SSH_PRIVATE_KEY }}' > id_rsa
+        run: |
+          mkdir -p ~/.ssh &&
+          cat > ~/.ssh/id_rsa <<- EOM
+          ${{ secrets.DROPLET_SSH_PRIVATE_KEY }}
+          EOM
       - name: Publish book
-        run: scp -r -i id_rsa book ${{ secrets.SCP_DESTINATION }}
+        run: scp -r book ${{ secrets.SCP_DESTINATION }}
