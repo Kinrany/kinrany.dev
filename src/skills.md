@@ -1,6 +1,6 @@
 ## Skills
 
-I'm a programming language polyglot. I prefer TypeScript and Rust, but I know C, C#, Python and Lua
+Programming languages: I prefer Rust and TypeScript, but I know C, C#, Python and Lua
 and I'm familiar with lisps and statically typed functional languages.
 
 Most of my professional experience was web-related. I can create from scratch and deploy
@@ -12,9 +12,11 @@ Two languages that seem particularly novel to me are [Cue], a non-Turing program
 for managing configuration, and [Spiral], a language that uses the same syntax for runtime
 and compile-time computation.
 
-I'm comfortable with algorithms and data structures. I'm also good at using public documentation to learn new things.
+I'm comfortable with algorithms and data structures. I'm also good
+at using public documentation to learn new things.
 
-My English is good enough that I use it 95% of the time. It seems to be between Upper-Intermediate and Advanced.
+My English is good enough that I use it 95% of the time.
+It seems to be between Upper-Intermediate and Advanced.
 
 [Cue]: https://cuelang.org/
 [Spiral]: https://github.com/mrakgr/The-Spiral-Language
