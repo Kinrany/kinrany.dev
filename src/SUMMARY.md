@@ -7,3 +7,5 @@
 - [Projects](./projects.md)
 - [Skills](./skills.md)
 - [Preferences](./preferences.md)
+- [Blog](./blog/README.md)
+    - [Abstraction](./blog/abstraction.md)
