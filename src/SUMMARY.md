@@ -9,3 +9,4 @@
 - [Preferences](./preferences.md)
 - [Blog](./blog/README.md)
     - [Abstraction](./blog/abstraction.md)
+    - [Bidirectional versioning](./blog/bidirectional.md)
