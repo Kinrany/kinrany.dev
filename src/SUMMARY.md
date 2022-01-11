@@ -10,3 +10,4 @@
 - [Blog](./blog/README.md)
     - [Abstraction](./blog/abstraction.md)
     - [Bidirectional versioning](./blog/bidirectional.md)
+    - [CSV replacement](./blog/csv_replacement.md)
